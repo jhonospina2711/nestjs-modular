@@ -2,6 +2,7 @@
 /dist
 /node_modules
 
+/google-cloud-sdk
 # Logs
 logs
 *.log
