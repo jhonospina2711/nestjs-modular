@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "data": {
+        "contents_checksum": "fe06fa5464996dd365e1d5bddbe0879446ca7a8c0972058e687195e347f01845",
+        "source": "",
+        "type": "tar"
+      },
+      "dependencies": [
+        "core",
+        "gcloud-deps",
+        "ssh-tools"
+      ],
+      "details": {
+        "description": "Handles all core functionality for the Cloud SDK.",
+        "display_name": "Cloud SDK Core Libraries (Platform Specific)"
+      },
+      "id": "core-nix",
+      "is_configuration": false,
+      "is_hidden": true,
+      "is_required": true,
+      "platform": {
+        "operating_systems": [
+          "CYGWIN",
+          "LINUX",
+          "MACOSX",
+          "MSYS"
+        ]
+      },
+      "platform_required": false,
+      "version": {
+        "build_number": 20210618132905,
+        "version_string": "2021.06.18"
+      }
+    }
+  ],
+  "revision": 20210730135533,
+  "schema_version": {
+    "no_update": false,
+    "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz",
+    "version": 3
+  },
+  "version": "351.0.0"
+}
